@@ -1,0 +1,9 @@
+git+https://github.com/subinps/pyrogram@inline-m
+# git+https://github.com/hackertyus/pyrogram@master
+tgcrypto
+motor
+marshmallow
+umongo
+requests
+psutil
+pymongo[srv]
