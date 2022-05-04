@@ -1,31 +1,26 @@
 class script(object):
-    START_TXT = """Esenlikler {}, ben <a href=https://t.me/{}>{}</a>.
+    START_TXT = """Merhaba {}, ben <a href=https://t.me/{}>{}</a>.
 Aşağıdaki butondan kanala katıl.
 Bana özelden yaz. /start yazsan yeterli.
-Ya bana bir kitap adı gönder,
-Ya da ara butonuna tıklayınca kitap adını yazmaya başla.
+Ya bana bir film/dizi adı gönder,
+Ya da ara butonuna tıklayınca Film/Dizi adını yazmaya başla.
 Yapamadın mı? Diğelerine bakarak kopya çek.
 
 🔥 Boşluklarla aratsan daha iyi olur:
-Örnek: "nihalatsız ruh-adam.pdf" gibi yazma.
-Şöyle yaz: "nihal atsız ruh adam"
-Şöyle yaz: "ruh adam pdf"
+Örnek: "lacasadepapel" gibi yazma.
+Şöyle yaz: "La Casa De Papel"
+Şöyle yaz: "Hızlı ve Öfkeli"
 Nokta tire gibi şeyler kullanmıyoruz.
 Onun yerine boşluk koyuyoruz.
 
 🔥 Ne kadar az şey yazarsan o kadar çok sonuç çıkar:
-Örnek: "celal şengör dahi diktatör" gibi yazma.
-Şöyle yaz: "dahi diktatör"
-Şöyle yaz: "dahi diktatör epub"
+Örnek: "Dark" gibi yazma.
+Şöyle yaz: "Dark 1. sezon"
+Şöyle yaz: "Hızlı ve Öfkeli 9"
 
-🔥 Eğer Türkçe terimler çalışmazsa Türkçe karakterleri çıkar:
-Örnek: "celal şengör dahi diktatör" gibi yazma.
-Şöyle yaz: "celal sengor dahi diktator"
-
-🔥 Oku: https://telegra.ph/KitapAraBot-04-16
 """
-    HELP_TXT = "Esenlikler {} aşağıdaki butonlar sana yardımcı olur."
-    ABOUT_TXT = "[🔥](https://telegra.ph/file/375b69b135524990cb7ca.jpg) {}, Sürüm: v2.0.4 Beta\nAnonim kişiler tarafından geliştirildi.\nTakıl işte üzümü ye bağını sorma.\nTelegramı indexleyen bir bot."
+    HELP_TXT = "Hoşgeldin {} aşağıdaki butonlar sana yardımcı olur."
+    ABOUT_TXT = "[🔥](https://telegra.ph/file/3d2a5606159bbed0dd44e.jpg) {}, Sürüm: v0.0.7 Beta\nAnonim kişiler tarafından geliştirildi.\nTakıl işte üzümü ye bağını sorma.\nTelegramı indexleyen bir bot."
     SOURCE_TXT = "Takıl işte üzümü ye bağını sorma.\nTelegramı indexleyen bir bot."
     MANUELFILTER_TXT = SOURCE_TXT
     BUTTON_TXT = SOURCE_TXT
