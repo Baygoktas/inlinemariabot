@@ -1,6 +1,6 @@
-kitaplar için özelleştirilmiş evamaria
+Telegramda data kanalındaki içerikleri sunmak için özelleştirilmiş evamaria
 
-written by theban & zorgof
+written by theban & zorgof & baygoktas
 
 
 BUTTON_COUNT kaç buton çıkacağını belirler.
