@@ -35,7 +35,7 @@ async def save_group(bot, message):
             await bot.leave_chat(message.chat.id)
             return
         await message.reply_text(text=f"bu gruba beni eklediğin için teşekkürler. kullanım için /start yazabilirsin.")
-    else: await message.reply_text("Hoş Geldiniz. Lütfen okuyun: https://telegra.ph/KitapAraBot-04-16", disable_web_page_preview=True)
+    else: await message.reply_text("Hoş Geldiniz. Lütfen okuyun: yada boşverin kumayın takılın kafanıza göre", disable_web_page_preview=True)
 
 
 @Client.on_message(filters.command('leave') & filters.user(ADMINS))
