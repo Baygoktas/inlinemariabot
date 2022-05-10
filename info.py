@@ -39,7 +39,7 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'dosyalar')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', 0))
 BUTTON_COUNT = int(environ.get('BUTTON_COUNT', 10))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'GercekArsivler')
-CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "𝑡𝑒𝑘𝑛𝑜𝑏𝑦𝑡𝑒")
+CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "@baygoktass")
 INDEX_REQ_CHANNEL = int(environ.get('INDEX_REQ_CHANNEL', LOG_CHANNEL))
 
 LOG_STR = "Current Cusomized Configurations are:-\n"
